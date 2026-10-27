@@ -91,7 +91,7 @@ GRANT ALL PRIVILEGES ON DATABASE mcpdb TO mcpuser;
 # Klonuj repozitář
 mkdir -p /opt/mcp-ga-connector
 cd /opt/mcp-ga-connector
-git clone https://github.com/expando-repo/mcp-ga-connector.git .
+git clone https://github.com/expando-translado/mcp-ga-connector.git .
 
 # Vytvoř virtuální prostředí
 python3.11 -m venv venv
